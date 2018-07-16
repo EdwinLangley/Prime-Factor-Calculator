@@ -1,0 +1,121 @@
+commit bc218e6e136f838b9888ce7926f46a6af3c60387
+Author: Edwin J Langley <Edlangley@live.co.uk>
+Date:   Wed Dec 6 15:32:43 2017 +0000
+
+    makefile includes rules for all builds including Best and Optimsed
+
+commit 8d475e1f9b5151961b26f8e1db00aeaddbd7bfb6
+Author: Edwin J Langley <Edlangley@live.co.uk>
+Date:   Mon Dec 4 12:35:31 2017 +0000
+
+    Changed makefile (removed opt and Best time / correctness tests)
+
+commit cb43302ad8c38999eedbca996bfe071e4b982ad9
+Author: Edwin J Langley <Edlangley@live.co.uk>
+Date:   Mon Dec 4 12:20:49 2017 +0000
+
+    Changed gitignore to include new exes
+
+commit 1ed0abb3de48fcf426f4ed7cc1e8562575f9c1cc
+Author: Edwin J Langley <Edlangley@live.co.uk>
+Date:   Mon Dec 4 12:14:49 2017 +0000
+
+    Added .gitignore that I had not realised was missing
+
+commit 37aef884be126bcf8164829375caef3fc0f5d8a4
+Author: Edwin J Langley <Edlangley@live.co.uk>
+Date:   Mon Dec 4 11:56:00 2017 +0000
+
+    Made sure all variables were defined on creation to avoid bugs on other OS
+
+commit 6f8072f4c81f571248b21a61ec24593e467d9b53
+Author: Edwin Langley <n0669298@ntu.ac.uk>
+Date:   Fri Dec 1 12:08:34 2017 +0000
+
+    Added sources/references to cpp file
+
+commit dcf47af84fc580a1d2893f82026d041b0807b26c
+Author: Edwin Langley <n0669298@ntu.ac.uk>
+Date:   Fri Dec 1 11:40:38 2017 +0000
+
+    Removed redundant makefile targets
+
+commit 66f2ed00523ada7fd613e6d446a5ffaf0b0755c5
+Author: Edwin Langley <n0669298@ntu.ac.uk>
+Date:   Fri Dec 1 11:17:04 2017 +0000
+
+    More thorough explanation of the code via comments
+
+commit 2cf115f9b4e932c3e1f9541bb912487b5429f7fd
+Author: Edwin Langley <n0669298@ntu.ac.uk>
+Date:   Thu Nov 30 18:58:16 2017 +0000
+
+    Removed Object files from repo due to a faulty .gitignore
+
+commit 3f3a0bbab51e4cbaf01c7a071a529d51c2346f48
+Author: Edwin Langley <n0669298@ntu.ac.uk>
+Date:   Thu Nov 30 18:54:55 2017 +0000
+
+    Trial division faster than the opt version and added appropriate comments
+
+commit 50017abd146c8b651eb01ca87de96d0183f033b0
+Author: Edwin Langley <n0669298@ntu.ac.uk>
+Date:   Tue Nov 28 11:03:05 2017 +0000
+
+    First version - task will not complete for nums with large prime factors
+
+
+=====================================
+            TASK 2 BELOW
+=====================================
+
+
+
+
+commit 26d845f03f687cf71db09cb589016f191706408f
+Author: Edwin J Langley <Edlangley@live.co.uk>
+Date:   Fri Nov 10 20:11:09 2017 +0000
+
+    Made the .h a dependency for the object files and used the automatic variable $< to target only the first dependency to avoid precompiled headers
+
+commit 630d3fb8f3f492bdad74746b2eb985bca8e08120
+Author: Edwin J Langley <Edlangley@live.co.uk>
+Date:   Fri Nov 10 18:54:27 2017 +0000
+
+    Made header a dependancy
+
+commit c1c9d512bd57042be5796f76457e1ce45eee044e
+Author: Edwin J Langley <Edlangley@live.co.uk>
+Date:   Fri Nov 10 17:24:35 2017 +0000
+
+    adds file suffix and return of object targets
+
+commit 4a899e6895fb6a34e01d8dac65ed5181cfc1aafd
+Author: Edwin J Langley <Edlangley@live.co.uk>
+Date:   Thu Nov 9 21:26:02 2017 +0000
+
+    Added static pattern rules
+
+commit cbefffc35eb11545865cd3f86960cad6d135d0bf
+Author: Edwin J Langley <Edlangley@live.co.uk>
+Date:   Sun Nov 5 15:13:40 2017 +0000
+
+    added automatic variable and patterns
+
+commit 4b9a69e066cb84552fc73cabe68800b67baa0efc
+Author: Edwin J Langley <Edlangley@live.co.uk>
+Date:   Sun Nov 5 12:33:30 2017 +0000
+
+    added some makefile variables
+
+commit efc802d56505bbf86b679de637ce00ee0c921424
+Author: Edwin J Langley <Edlangley@live.co.uk>
+Date:   Sat Nov 4 23:05:35 2017 +0000
+
+    Better file structure
+
+commit db2df9f0ddd886bda2fb2887a0cc576ef8143072
+Author: Edwin J Langley <Edlangley@live.co.uk>
+Date:   Sat Nov 4 23:01:55 2017 +0000
+
+    added validation for factorial
